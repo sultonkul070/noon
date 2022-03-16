@@ -1,0 +1,249 @@
+.footer {
+  color: #404553;
+}
+
+/* ///////////////////////////// */
+/* FOOTER HELP */
+/* /////////////////////////////// */
+.help {
+  background-color: #f7f7fa;
+  padding: 20px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.help-text .help-title {
+  color: rgb(64, 69, 83);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.help-text .help-description {
+  font-size: 1rem;
+  color: rgb(126, 133, 155);
+  margin-top: 4px;
+}
+
+.help-support {
+  display: flex;
+}
+
+.help-support-link {
+  text-decoration: none;
+  display: block;
+  padding: 0 20px;
+
+  display: flex;
+  align-items: center;
+}
+
+.help-support-icon {
+  border: 1px solid rgb(226, 229, 241);
+  background-color: white;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.help-support-text {
+  padding-left: 10px;
+}
+
+.help-support-title {
+  display: block;
+  font-size: 0.83333rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: rgb(126, 133, 155);
+}
+
+.help-support-url {
+  font-weight: 600;
+  font-size: 1.41667rem;
+  color: rgb(64, 69, 83);
+  line-height: 1.4;
+}
+
+/* ///////////////////////////// */
+/* FOOTER NAV */
+/* /////////////////////////////// */
+.footer-nav {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-nav-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-nav-title {
+  color: inherit;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 12px;
+  font-size: 1.1rem;
+}
+
+.footer-nav-link:link,
+.footer-nav-link:visited {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+}
+
+/* ///////////////////////////// */
+/* FOOTER LOGOS */
+/* /////////////////////////////// */
+
+.footer-social-logos {
+  margin: 15px auto 25px auto;
+  padding: 20px 0;
+  display: flex;
+}
+
+.mobile-apps-title,
+.social-media-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(64, 69, 83);
+  margin-bottom: 8px;
+}
+
+.mobile-apps-box,
+.social-media-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-apps,
+.social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mobile-apps-logos,
+.social-media-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-app-logo {
+  display: block;
+  height: 35px;
+  margin-right: 7px;
+  max-width: 100%;
+  transition: opacity 250ms ease-in-out 0s;
+  cursor: pointer;
+}
+
+.social-media-icon {
+  display: block;
+  text-decoration: none;
+  background-color: rgb(254, 238, 0);
+  color: inherit;
+  border-radius: 50%;
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: inherit;
+}
+
+.footer-under {
+  padding: 0 0 50px 0;
+  background-color: #f7f7fa;
+}
+
+.footer-under-nav {
+  border-top: 1px solid rgb(226, 229, 241);
+  padding: 12px 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-payments-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.payment-type {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0.2rem;
+  border: 1px solid rgb(241, 243, 249);
+  border-radius: 2px;
+  width: 50px;
+  height: 30px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.footer-terms-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.terms-item-link:link,
+.terms-item-link:visited {
+  display: block;
+  color: inherit;
+  padding: 7px 10px 0px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: text-decoration 0.3s;
+}
+
+.terms-item-link:hover,
+.terms-item-link:active {
+  text-decoration: underline;
+}
+
+.footer-copyright {
+  cursor: pointer;
+  font-size: 14px;
+  color: rgb(126, 133, 155);
+}
+
+.copyright-tooltip {
+  width: 160px;
+  color: rgb(34, 34, 34);
+  font-size: 13px;
+  padding: 4px 16px;
+  text-align: center;
+}
+
+.rights {
+  max-width: 160px;
+  max-height: 160px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rights-img {
+  max-width: 100%;
+  max-height: 100%;
+}

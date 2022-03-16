@@ -1,0 +1,19 @@
+.section-toyssale {
+  padding: 0 15px;
+}
+
+.toyssale-header-img {
+  max-width: 100%;
+  display: block;
+}
+
+.toyssales {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.toyssale-img {
+  display: block;
+  max-width: 100%;
+}

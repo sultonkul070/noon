@@ -1,0 +1,26 @@
+.section-megadeals {
+  background-color: rgb(243, 224, 8);
+  padding-bottom: 25px;
+}
+
+.megadeals-header {
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
+.megadeals-header-img {
+  max-width: 100%;
+  display: block;
+}
+
+.megadeals {
+  padding: 0px 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.megadeal-img {
+  display: block;
+  max-width: 100%;
+}

@@ -1,0 +1,17 @@
+.section-bigsales {
+  background-color: rgb(235, 235, 235);
+  padding-top: 35px;
+  padding-bottom: 25px;
+}
+
+.bigsales {
+  padding: 0px 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bigsale-img {
+  display: block;
+  max-width: 100%;
+}

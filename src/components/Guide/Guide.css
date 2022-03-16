@@ -1,0 +1,26 @@
+.section-guides {
+  background-color: rgb(251, 245, 255);
+  padding-bottom: 25px;
+}
+
+.guides-header {
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
+.guides-header-img {
+  max-width: 100%;
+  display: block;
+}
+
+.guides {
+  padding: 0px 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.guide-img {
+  display: block;
+  max-width: 100%;
+}
